@@ -1,0 +1,83 @@
+
+html {
+    background-color: lightblue;
+	background: url("C:\\Users\\jntrcs\\Desktop\\CS201\\CS201\\stagetheater.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100% 100%;
+
+}
+
+button{
+	padding: 10;
+	border: none;
+background: none;
+}
+
+div{
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+
+  background-color: #ccc;
+}
+
+#spotlightpink {
+  width:1024px;
+  height:450px;
+  z-index:9;
+  position:absolute;
+  top:150px;
+  left:100px;
+  background:red;
+  background: radial-gradient(circle, rgba(245,70,239,.7), rgba(238,235,77,0),rgba(137,226,110,0));
+
+}
+
+#spotlightblue {
+  width:1024px;
+  height:450px;
+  z-index:9;
+  position:absolute;
+  top:150px;
+  left:100px;
+  background:red;
+  background: radial-gradient(circle, rgba(21,233,233,.7), rgba(21,233,233,.1),rgba(137,226,110,0));
+  
+ 
+
+}
+
+#green{
+	position: relative;
+	top: 100px;
+	left: 110px;
+	background-color: green;
+}
+
+#blue{
+	position: relative;
+	top: 100px;
+	left: 110px;
+	background-color: blue;
+}
+
+.button{
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+#green:hover {
+	background-color: white;
+	color: black;
+}
+
+#blue:hover {
+	background-color: white;
+	color: black;
+}
+
+
