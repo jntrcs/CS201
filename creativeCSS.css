@@ -10,9 +10,9 @@ html {
 }
 
 button{
-	padding: 10;
+	padding: 14px 40px;
 	border: none;
-background: none;
+	background: none;
 }
 
 div{
@@ -54,14 +54,14 @@ div{
 #green{
 	position: relative;
 	top: 100px;
-	left: 110px;
+	left: 0px;
 	background-color: green;
 }
 
 #blue{
 	position: relative;
 	top: 100px;
-	left: 110px;
+	left: 500px;
 	background-color: blue;
 }
 
