@@ -26,11 +26,11 @@ inputField.addEventListener("keyup", function()
 while (list.firstChild) {
     list.removeChild(list.firstChild);
 }
-var text = inputField.value;
+var text = inputField.value.toLowerCase();
 if (text.length>0){
 for (i =0 ; i <cities.length; i++)
 {
-	if (text.toLowerCase() ===cities[i].substr(0, text.length).toLowerCase()){
+	if (text ===cities[i].substr(0, text.length).toLowerCase()){
 	listitem=document.createElement('li');
 	listitem.innerHTML=cities[i];
 	list.appendChild(listitem);

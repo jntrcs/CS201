@@ -12,19 +12,31 @@ Creative Project #1
 
 <body>
 <button type="button" class = "button" id="blue">Blue Light</button>
-<button type="button" class = "button" id="green">Green Light</button>
+<button type="button" class = "button" id="pink">Pink Light</button>
 <div id="spotlightpink"></div>
 <div id="spotlightblue"></div>
 
 <script>
 var blue =document.getElementById("blue");
-var green = document.getElementById("green");
+var green = document.getElementById("pink");
 blue.addEventListener("click", function() {
-
+    var div = document.getElementById('spotlightblue');
+    if (div.style.display !== 'block') {
+        div.style.display = 'block';
+    }
+    else {
+        div.style.display = 'none';
+    }
 
 })
-green.addEventListener("click", function() {
-
+pink.addEventListener("click", function() {
+    var div = document.getElementById('spotlightpink');
+    if (div.style.display !== 'block') {
+        div.style.display = 'block';
+    }
+    else {
+        div.style.display = 'none';
+    }
 
 })
 </script>
