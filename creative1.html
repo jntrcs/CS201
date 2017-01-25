@@ -21,25 +21,49 @@ var blue =document.getElementById("blue");
 var green = document.getElementById("pink");
 blue.addEventListener("click", function() {
     var div = document.getElementById('spotlightblue');
+	var other=document.getElementById('spotlightpink');
+	var button = document.getElementById('blue');
     if (div.style.display !== 'block') {
         div.style.display = 'block';
+		button.style.background="white";
+		if (other.style.display ==="block"){
+			div.style.opacity=".5";
+		}
     }
     else {
         div.style.display = 'none';
+		button.style.background="blue";
+		if (other.style.display ==="block")
+		{
+			other.style.opacity="1";
+		}
     }
 
 })
 pink.addEventListener("click", function() {
     var div = document.getElementById('spotlightpink');
+	var other=document.getElementById('spotlightblue');
+	var button = document.getElementById("pink");
     if (div.style.display !== 'block') {
+		button.style.background="white";
         div.style.display = 'block';
+		if (other.style.display ==="block"){
+			div.style.opacity=".5";
+		}
     }
     else {
+	button.style.background="pink";
         div.style.display = 'none';
+		if (other.style.display ==="block")
+		{
+			other.style.opacity="1";
+		}
     }
 
 })
-</script>
+
+
+	</script>
 
 </body>
 </html>

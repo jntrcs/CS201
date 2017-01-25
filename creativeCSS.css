@@ -70,6 +70,10 @@ div{
 	transition-duration: 0.4s;
 }
 
+#white{
+	background-color="white";
+}
+
 #pink:hover {
 	background-color: white;
 	color: black;
@@ -79,5 +83,8 @@ div{
 	background-color: white;
 	color: black;
 }
+
+
+
 
 
