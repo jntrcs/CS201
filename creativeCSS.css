@@ -1,7 +1,7 @@
 
 html {
     background-color: lightblue;
-	background: url("C:\\Users\\jntrcs\\Desktop\\CS201\\CS201\\stagetheater.jpg") no-repeat center center fixed;
+	background: url("stagetheater.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -34,7 +34,7 @@ div{
   left:100px;
   background:red;
   background: radial-gradient(circle, rgba(245,70,239,.7), rgba(238,235,77,0),rgba(137,226,110,0));
-
+	display:none;
 }
 
 #spotlightblue {
@@ -46,23 +46,30 @@ div{
   left:100px;
   background:red;
   background: radial-gradient(circle, rgba(21,233,233,.7), rgba(21,233,233,.1),rgba(137,226,110,0));
-  
+  display:none;
  
 
 }
 
-#green{
-	position: relative;
+#pink{
+	position: fixed;
 	top: 100px;
-	left: 0px;
-	background-color: green;
+<<<<<<< HEAD
+
+	background-color: pink;
+=======
+	left: 50px;
+	background-color: pink;
+>>>>>>> 16623c9a699ad685ab4c05fcb29da72a2f7448eb
 }
 
 #blue{
-	position: relative;
+	position: fixed;
 	top: 100px;
-	left: 500px;
+<<<<<<<<HEAD
+	left:500px;
 	background-color: blue;
+======
 }
 
 .button{
@@ -70,7 +77,11 @@ div{
 	transition-duration: 0.4s;
 }
 
-#green:hover {
+#white{
+	background-color="white";
+}
+
+#pink:hover {
 	background-color: white;
 	color: black;
 }
@@ -79,5 +90,8 @@ div{
 	background-color: white;
 	color: black;
 }
+
+
+
 
 
