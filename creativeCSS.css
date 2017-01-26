@@ -30,8 +30,8 @@ div{
   height:450px;
   z-index:9;
   position:absolute;
-  top:150px;
-  left:100px;
+  top:153px;
+  left:130px;
   background:red;
   background: radial-gradient(circle, rgba(245,70,239,.7), rgba(238,235,77,0),rgba(137,226,110,0));
 	display:none;
@@ -43,7 +43,7 @@ div{
   z-index:9;
   position:absolute;
   top:150px;
-  left:100px;
+  left:78px;
   background:red;
   background: radial-gradient(circle, rgba(21,233,233,.7), rgba(21,233,233,.1),rgba(137,226,110,0));
   display:none;
