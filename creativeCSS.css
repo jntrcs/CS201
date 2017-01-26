@@ -53,23 +53,21 @@ div{
 
 #pink{
 	position: fixed;
+	float:right;
+	margin-right: 100px;
 	top: 100px;
-<<<<<<< HEAD
-
-	background-color: pink;
-=======
-	left: 50px;
+	left: 970px;
 	background-color: pink;
 >>>>>>> 16623c9a699ad685ab4c05fcb29da72a2f7448eb
 }
 
 #blue{
 	position: fixed;
+	float:left;
+	margin-left:100px;
 	top: 100px;
-<<<<<<<<HEAD
-	left:500px;
+	left:-50px;
 	background-color: blue;
-======
 }
 
 .button{
@@ -90,6 +88,13 @@ div{
 	background-color: white;
 	color: black;
 }
+h1{
+
+        color:#66ffcc;
+        font-family: Oswald;
+        text-align: center;
+        font-size: 50px;       
+ }
 
 
 
