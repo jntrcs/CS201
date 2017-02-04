@@ -1,7 +1,7 @@
 
 html {
     background-color: lightblue;
-	background: url("C:\\Users\\jntrcs\\Desktop\\CS201\\CS201\\stagetheater.jpg") no-repeat center center fixed;
+	background: url("stagetheater.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -10,9 +10,9 @@ html {
 }
 
 button{
-	padding: 10;
+	padding: 14px 40px;
 	border: none;
-background: none;
+	background: none;
 }
 
 div{
@@ -30,8 +30,8 @@ div{
   height:450px;
   z-index:9;
   position:absolute;
-  top:150px;
-  left:100px;
+  top:153px;
+  left:130px;
   background:red;
   background: radial-gradient(circle, rgba(245,70,239,.7), rgba(238,235,77,0),rgba(137,226,110,0));
 	display:none;
@@ -43,7 +43,7 @@ div{
   z-index:9;
   position:absolute;
   top:150px;
-  left:100px;
+  left:78px;
   background:red;
   background: radial-gradient(circle, rgba(21,233,233,.7), rgba(21,233,233,.1),rgba(137,226,110,0));
   display:none;
@@ -52,16 +52,21 @@ div{
 }
 
 #pink{
-	position: relative;
+	position: fixed;
+	float:right;
+	margin-right: 100px;
 	top: 100px;
-	left: 110px;
+	left: 970px;
 	background-color: pink;
+>>>>>>> 16623c9a699ad685ab4c05fcb29da72a2f7448eb
 }
 
 #blue{
-	position: relative;
+	position: fixed;
+	float:left;
+	margin-left:100px;
 	top: 100px;
-	left: 110px;
+	left:-50px;
 	background-color: blue;
 }
 
@@ -83,6 +88,13 @@ div{
 	background-color: white;
 	color: black;
 }
+h1{
+
+        color:#66ffcc;
+        font-family: Oswald;
+        text-align: center;
+        font-size: 50px;       
+ }
 
 
 
