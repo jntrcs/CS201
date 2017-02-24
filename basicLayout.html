@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+
+  <meta charset="utf-8">
+</title>
+</head>
+
+<body>
+
+<div id="TrackList">
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+</script>
+<script>
+var a = function(id)
+{
+	id = "07QEuhtrNmmZ0zEcqE9SF6";
+	$.getJSON("https://api.spotify.com/v1/artists/"+id+"/top-tracks", function(result){
+	console.log(result);
+	}
+
+}
+a(1);
+</script>
+
+</body>
+</html>
+
